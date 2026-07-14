@@ -34,7 +34,7 @@
 Способ 1. Через Git (рекомендуется):
 
 ```
-git clone https://github.com/<your-username>/hull-practice.git
+git clone https://github.com/<lkona666>/hull-practice.git
 cd hull-practice
 ```
 
