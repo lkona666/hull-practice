@@ -23,16 +23,19 @@
 
 ---
 
-## 📁 Структура репозитория
+```text
+## Структура репозитория
+
 hull/
-├── main.py # Графический интерфейс (Tkinter)
-── console_demo.py # Консольная версия для Docker
-├── Dockerfile # Конфигурация Docker-контейнера
-├── requirements.txt # Зависимости Python
-├── README.md # Этот файл
-├── GUIDE.md # Подробный гайд по запуску
+├── main.py                # Графический интерфейс (Tkinter)
+├── console_demo.py        # Консольная версия для Docker
+├── Dockerfile             # Конфигурация Docker-контейнера
+├── requirements.txt       # Зависимости Python
+├── README.md              # Документация
+├── GUIDE.md               # Подробный гайд
 └── data/
-└── sample.json # Пример входных данных (14 точек)
+    └── sample.json        # Пример входных данных
+```
 
 ---
 
