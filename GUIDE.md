@@ -458,13 +458,13 @@ docker run --rm hull-app
 ### Установка pytest
 
 ```
-pip install pytest
+python -m pip install pytest
 ```
 
 ### Запуск тестов
 
 ```
-pytest tests/ -v
+python -m pytest tests/ -v 
 ```
 
 ---
