@@ -1,18 +1,11 @@
-<<<<<<< HEAD
 FROM python:3.12-slim
 
 WORKDIR /app
 
-COPY main.py console_demo.py ./
+COPY algorithms.py geometry.py main.py console_demo.py ./
 COPY data/ ./data/
+COPY tests/ ./tests/
 
-=======
-FROM python:3.12-slim
+RUN pip install --no-cache-dir pytest
 
-WORKDIR /app
-
-COPY main.py console_demo.py ./
-COPY data/ ./data/
-
->>>>>>> 5fd4d7eea2ac6baab0f6de9122979f5c776c18e3
 CMD ["python", "console_demo.py", "data/sample.json"]
