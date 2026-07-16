@@ -86,8 +86,8 @@
 
 ## Запуск тестов
 
-    pip install pytest
-    pytest tests/ -v
+    python -m pip install pytest
+    python -m pytest tests/ -v
 
 ---
 
